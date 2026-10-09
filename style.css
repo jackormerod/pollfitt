@@ -1,0 +1,128 @@
+:root{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#202020;background:white;font-synthesis:none;--brand-green:#0B6B53;--brand-green-rgb:11,107,83;--light:rgba(var(--brand-green-rgb),.08);--line:#dedede}*{box-sizing:border-box}body{margin:0;padding-bottom:env(safe-area-inset-bottom)}button,input,select{font:inherit}button,a,input{touch-action:manipulation}button{cursor:pointer;border:1px solid var(--line);border-radius:12px;min-height:48px;padding:10px 16px;background:white;color:var(--brand-green);font-weight:600}button:hover{background:var(--light)}button:focus-visible,input:focus-visible,select:focus-visible,a:focus-visible{outline:3px solid var(--brand-green);outline-offset:3px}button.primary,.primary{background:var(--brand-green);color:white;border-color:var(--brand-green)}header{max-width:1000px;margin:auto;padding:28px 28px 20px;display:flex;align-items:center;justify-content:space-between}.brand{font-size:2.0rem;font-weight:800;letter-spacing:-1.7px;text-decoration:none;color:var(--brand-green)}.brand span{font-size:0.875rem;font-weight:500;letter-spacing:0;margin-left:12px;color:#666666}.private{font-size:0.6875rem;letter-spacing:1.8px;color:#666666}nav{display:flex;max-width:944px;margin:auto;border-bottom:1px solid var(--line);gap:18px}nav button{border:0;border-radius:0;background:none;color:#666666;padding:12px 8px}nav .selected{border-bottom:3px solid var(--brand-green);color:var(--brand-green)}main{max-width:800px;margin:36px auto;padding:0 24px 190px}.eyebrow{font-size:0.75rem;letter-spacing:2px;text-transform:uppercase;color:#666666;font-weight:700}h1{font-size:2.625rem;letter-spacing:-1.8px;margin:9px 0 12px}h2{font-size:1.3125rem;letter-spacing:-.5px;margin:0 0 8px}p{line-height:1.6} .muted,small{color:#666666;font-size:0.875rem}.day-tabs{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:25px 0}.day-tabs button{min-height:54px}.day-tabs .active{background:var(--brand-green);color:white;border-color:var(--brand-green)}.summary{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:12px}.summary p{margin:0}.track{height:5px;border-radius:4px;background:var(--light);margin:18px 0 28px;overflow:hidden}.track span{display:block;height:100%;background:var(--brand-green)}.exercise{border:1px solid var(--line);border-radius:18px;margin:16px 0;padding:22px}.exercise-head{display:flex;gap:15px;margin-bottom:18px}.number{font-size:0.875rem;color:#808080;padding-top:4px;min-width:24px}.exercise h2{font-size:1.1875rem;line-height:1.35}.exercise-head p{margin:5px 0}.recommendation{background:var(--light);border-radius:8px;padding:10px 12px;font-size:0.875rem;margin:10px 0 16px;line-height:1.5}.set-grid{display:grid;grid-template-columns:40px minmax(60px,1fr) minmax(60px,1fr) 58px;gap:10px;align-items:center;margin:10px 0}.set-grid.labels{color:#666666;font-size:0.75rem;margin-bottom:0}.set-grid input{width:100%;min-height:48px;border:1px solid #d4d4d4;border-radius:10px;text-align:center;background:#fafafa;color:#222222;font-size:1.125rem}.set-grid .done{background:var(--brand-green);color:white;border-color:var(--brand-green)}.previous{font-size:0.75rem;display:block;margin:5px 0 0;text-align:center;color:#666666}.set-name{font-size:0.875rem;font-weight:600}.set-block{padding:2px 0 8px;border-bottom:1px solid #eeeeee}.set-block:last-child{border:0}.finish{width:100%;min-height:58px;margin-top:16px}.actions{display:flex;gap:8px;flex-wrap:wrap}.card{border:1px solid var(--line);border-radius:16px;padding:22px;margin:16px 0}.card summary{cursor:pointer;font-weight:600;line-height:1.5;min-height:44px}.history-ex{padding:12px 0;border-top:1px solid var(--line)}.history-ex h3{font-size:1.0rem;margin:4px 0 8px}.history-ex p{font-size:0.875rem;margin:4px 0}.badge{display:inline-block;background:var(--light);color:var(--brand-green);padding:5px 9px;border-radius:6px;font-size:0.75rem;margin-left:8px}.setting{display:flex;align-items:center;justify-content:space-between;gap:14px;padding:13px 0;border-bottom:1px solid var(--line);font-size:0.875rem}.setting input{width:82px;min-height:46px;border:1px solid var(--line);border-radius:9px;text-align:center}.setting span{flex:1}#timer{position:fixed;bottom:max(16px,env(safe-area-inset-bottom));left:50%;transform:translateX(-50%);width:min(752px,calc(100% - 24px));background:var(--brand-green);color:white;padding:18px 20px;border-radius:19px;box-shadow:0 8px 40px rgba(var(--brand-green-rgb),.20);z-index:5}#timer .timer-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}#timer strong{font-size:2.0rem;font-variant-numeric:tabular-nums}#timer button{background:#ffffff12;color:white;border-color:#ffffff35;min-height:44px;padding:7px 13px}#timer .actions{display:grid;grid-template-columns:repeat(4,1fr);gap:7px}#notice{position:fixed;top:12px;left:50%;transform:translateX(-50%);background:var(--brand-green);color:white;border-radius:10px;padding:12px 18px;max-width:90%;z-index:10}#notice:empty{display:none}dialog{border:0;border-radius:20px;padding:28px;max-width:calc(100% - 32px);width:440px;box-shadow:0 12px 50px #0002}dialog::backdrop{background:rgba(var(--brand-green-rgb),.40)}.chart{display:flex;height:96px;align-items:flex-end;gap:8px;border-bottom:1px solid var(--line);margin:18px 0}.bar{background:var(--brand-green);flex:1;max-width:48px;min-height:3px;border-radius:5px 5px 0 0}.empty{padding:35px 0;color:#666666}.file{display:block;margin-top:12px}a{color:var(--brand-green)}@media (max-width:600px){header{padding:20px}.brand span{display:none}.private{font-size:0.625rem}nav{padding:0 16px;gap:20px}main{margin:28px auto;padding:0 16px 190px}h1{font-size:2.25rem}.exercise{padding:17px 14px}.exercise-head{gap:8px}.set-grid{gap:8px;grid-template-columns:34px minmax(60px,1fr) minmax(60px,1fr) 52px}#timer{padding:14px}#timer button{font-size:0.875rem;padding:7px}.summary{align-items:flex-start}.summary p{font-size:0.875rem}}@media (prefers-reduced-motion:no-preference){button{transition:background .15s}}
+
+nav{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}nav button{min-width:0;overflow-wrap:anywhere}.summary{flex-wrap:wrap}.set-grid label,.exercise-head>div{min-width:0}.set-grid input{min-width:0}.previous,.set-name small{overflow-wrap:anywhere}.set-name small{display:inline-block;max-width:100%}.timer-top>span{min-width:0;overflow-wrap:anywhere}#timer button{min-width:0;overflow-wrap:anywhere}.brand{white-space:nowrap}.private{text-align:right}@media (max-width:350px){header{gap:12px}#timer .actions{grid-template-columns:repeat(2,minmax(0,1fr))}.set-grid{grid-template-columns:30px minmax(0,1fr) minmax(0,1fr) 48px;gap:6px}}
+
+.day-tabs{grid-template-columns:repeat(4,minmax(0,1fr))}.day-tabs button{min-width:0;padding:10px 4px;overflow-wrap:anywhere}.set-grid button{min-width:0;padding:10px 4px}.set-grid.labels span{overflow-wrap:anywhere}
+
+.last-session-control{font-size:.875rem;min-height:48px;margin:4px 0 6px;padding:10px 14px;background:rgba(var(--brand-green-rgb),.04);color:var(--brand-green);border-color:rgba(var(--brand-green-rgb),.16);-webkit-touch-callout:none;-webkit-user-select:none;user-select:none;touch-action:none}.last-session-control[aria-expanded=true]{background:var(--brand-green);color:white}.last-session[hidden]{display:none}.last-session{border:1px solid rgba(var(--brand-green-rgb),.30);background:rgba(var(--brand-green-rgb),.04);border-radius:12px;padding:16px;margin:0 0 18px;overflow-wrap:anywhere}.last-session-title{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap}.last-session h3{font-size:1rem;margin:0}.last-session-title .badge{margin:0}.last-session>p.muted{margin:8px 0 12px}.last-session-set{padding:10px 0;border-top:1px solid rgba(var(--brand-green-rgb),.14);font-size:.875rem}.last-session-set p{margin:5px 0;line-height:1.6}.arm-label{font-weight:600}.set-status{display:inline-block;font-size:.75rem;border:1px solid rgba(var(--brand-green-rgb),.24);border-radius:5px;padding:1px 6px;margin-left:4px}.last-session-advice{border-top:1px solid rgba(var(--brand-green-rgb),.24);padding-top:12px;margin:8px 0 0;font-size:.875rem;font-weight:600}
+
+.set-check{width:100%;min-width:44px!important;min-height:48px;border:1.5px solid var(--brand-green);border-radius:12px;background:rgba(var(--brand-green-rgb),.015);display:flex;align-items:center;justify-content:center;padding:10px 4px;color:var(--brand-green)}.set-check svg{width:25px;height:25px;opacity:.4}.set-check.done{background:var(--brand-green);color:white}.set-check.done svg{opacity:1}.set-grid.set-completed{background:rgba(var(--brand-green-rgb),.07);border-radius:12px;padding:7px 4px;margin-left:-4px;margin-right:-4px}.set-completed input{background:white}.programme-set-completed{border-bottom-color:rgba(var(--brand-green-rgb),.20)}.history-set-completed{background:rgba(var(--brand-green-rgb),.07);border-radius:7px;padding:4px 7px}.history-arm{display:block;margin:5px 0}.set-status{display:inline-flex;align-items:center;gap:5px;vertical-align:middle}.status-check{display:inline-flex;border:1px solid var(--brand-green);border-radius:4px;width:19px;height:19px;align-items:center;justify-content:center;color:var(--brand-green);flex-shrink:0}.status-check svg{width:15px;height:15px;opacity:.35}.set-status.completed .status-check{background:var(--brand-green);color:white}.set-status.completed svg{opacity:1}@media (prefers-reduced-motion:no-preference){.set-check.just-completed{animation:set-confirm .2s ease-out}.set-check.just-completed svg{animation:tick-confirm .2s ease-out}@keyframes set-confirm{0%{transform:scale(.94)}60%{transform:scale(1.05)}100%{transform:scale(1)}}@keyframes tick-confirm{0%{opacity:.1;transform:scale(.6)}100%{opacity:1;transform:scale(1)}}}
+
+.last-session-control,.set-check{-webkit-tap-highlight-color:transparent}
+
+.brand{display:flex;align-items:center;gap:0}.brand-logo{width:165px;height:45px;display:block;flex-shrink:0}@media (max-width:350px){.brand-logo{width:140px;height:auto}}
+
+/* Compact exercise cards: inputs and completion buttons share grid row 1. */
+.exercise{padding:14px;margin:12px 0}
+.exercise-head{gap:10px;margin-bottom:14px}
+.exercise h2{margin-bottom:4px}
+.exercise-head p{margin:3px 0}
+.last-session-control{min-height:44px;margin:2px 0;padding:8px 12px}
+.recommendation{padding:8px 10px;margin:6px 0 10px}
+.set-grid{grid-template-columns:34px minmax(0,1fr) minmax(0,1fr) 48px;column-gap:8px;row-gap:2px;margin:5px 0}
+.set-grid>.set-name{grid-column:1;grid-row:1}
+.set-grid>input[data-field=weight]{grid-column:2;grid-row:1}
+.set-grid>input[data-field=reps]{grid-column:3;grid-row:1}
+.set-grid>.set-check{grid-column:4;grid-row:1}
+.set-grid input{height:44px;min-height:44px}
+.set-grid .previous{margin:0;line-height:14px;grid-row:2}
+.previous-weight{grid-column:2}.previous-reps{grid-column:3}
+.set-block{padding:0 0 8px}
+
+.set-grid.set-completed{padding:0;margin-left:0;margin-right:0}
+.set-check{height:44px;min-height:44px;border-radius:11px;flex-direction:column;gap:0;padding:3px!important}
+.set-check>svg{width:24px;height:24px}
+.set-check.done{background:var(--brand-green);color:white}
+.pb-badge{display:inline-flex;align-items:center;gap:2px;color:#936600;font-size:10px;font-weight:700;line-height:12px;white-space:nowrap;vertical-align:middle}
+.pb-badge svg{width:12px;height:12px;opacity:1}
+.set-check .pb-badge{color:#ffdc75}
+.set-check:has(.pb-badge)>svg{width:20px;height:20px}
+.status-check{color:var(--brand-green)}.set-status.completed .status-check{color:white}
+@media (max-width:600px){.exercise{padding:14px}.exercise-head{gap:8px}.set-grid{column-gap:6px}}
+@media (max-width:350px){.set-grid{grid-template-columns:28px minmax(0,1fr) minmax(0,1fr) 44px}}
+@media (prefers-reduced-motion:no-preference){@keyframes set-confirm{from{transform:scale(.96)}to{transform:scale(1)}}}
+@media (prefers-reduced-motion:reduce){.set-check,.set-check svg{animation:none!important;transition:none!important}}
+
+
+/* Comfortable card headers; only repeated set rows are compacted. */
+.exercise{padding:22px;margin:16px 0}
+.exercise-head{gap:15px;margin-bottom:18px}
+.exercise-head>div{display:flex;flex-direction:column;align-items:flex-start;gap:14px}
+.exercise h2{margin:0}
+.last-session-control{min-height:48px;margin:0;padding:10px 14px}
+.recommendation{padding:10px 12px;margin:10px 0 16px}
+.exercise{--set-row-gap:14.4px}
+.set-block{display:grid;gap:var(--set-row-gap);padding:0;margin:0 0 var(--set-row-gap);border:0}
+.set-grid:not(.labels){margin:0;row-gap:0;align-items:center}
+
+@media (max-width:600px){.exercise{padding:17px 14px}.exercise-head{gap:8px}}
+
+/* Equal spacing around column headings; repeated-row spacing is unchanged. */
+.exercise .set-grid.labels{margin:18px 0;padding:0}
+
+/* No trailing action or vacant row gap after the last recorded set. */
+.exercise>.set-block:last-child{margin-bottom:0}
+
+/* Let longer navigation labels use their natural width on narrow screens. */
+nav button{white-space:nowrap;overflow-wrap:normal}
+@media (max-width:600px){nav{grid-template-columns:repeat(4,auto);gap:4px}nav button{padding-left:4px;padding-right:4px}}
+/* Keep the final control bottoms flush with the card's symmetric padding. */
+.exercise>.set-block:last-child>.set-grid:last-child{align-items:end}
+
+/* Share the title row with its number instead of aligning against the whole header. */
+.exercise-head{display:grid;grid-template-columns:24px minmax(0,1fr);row-gap:14px;align-items:center}
+.exercise-head>div{display:contents}
+.exercise-head .number{grid-column:1;grid-row:1;align-self:center;padding:0;text-align:center;text-box-trim:trim-both;text-box-edge:cap alphabetic}
+.exercise-head h2{grid-column:2;grid-row:1;text-box-trim:trim-both;text-box-edge:cap alphabetic}
+.exercise-head .last-session-control{grid-column:2;grid-row:2;justify-self:start}
+/* Both arm labels fit without enlarging the final row beyond the 44px controls. */
+.exercise .set-grid{grid-template-columns:34px minmax(0,1fr) minmax(0,1fr) 48px}
+.set-name{align-self:center;padding:0;line-height:1.2;text-align:center}
+.set-name small{white-space:nowrap}
+.exercise>.set-block:last-child>.set-grid:last-child{align-items:center}
+
+/* Centre numeric values without native spinner space shifting the text. */
+.set-grid input[type=number]{text-align:center;padding:0 4px;line-height:normal;appearance:textfield;-moz-appearance:textfield}
+.set-grid input[type=number]::-webkit-inner-spin-button,.set-grid input[type=number]::-webkit-outer-spin-button{-webkit-appearance:none;margin:0}
+
+/* Refined workout card hierarchy and aligned controls. */
+.day-current{color:var(--brand-green)}.day-total{color:#a3a3a3}
+.day-tabs button{font-size:1.125rem}
+.exercise{--card-space:18px;padding:var(--card-space)}
+.exercise-head{display:flex;flex-direction:column;align-items:flex-start;gap:var(--card-space);margin:0 0 var(--card-space)}
+.exercise-head>div{display:contents}
+.exercise h2{font-size:1.375rem;font-weight:700;font-style:normal;line-height:1.35}
+.exercise-head .last-session-control{height:44px;min-height:44px;margin:0;padding:8px 12px}
+.exercise .set-grid.labels{margin:0 0 var(--card-space);padding:0}
+.exercise .set-grid.labels>span{text-align:center}
+.exercise>.set-block{margin:0 0 var(--set-row-gap)}
+.exercise>.set-block:last-child{margin-bottom:0}
+.set-name{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:2px}
+.set-number{display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:var(--brand-green);color:white;font-size:.875rem;font-weight:700;line-height:1}
+@media (max-width:600px){.exercise{padding:var(--card-space)}.exercise-head{gap:var(--card-space)}}
+
+
+/* PollFitt v1: the wordmark and content use the same container and inset. */
+header{max-width:none;margin:0;padding:28px 28px 20px}
+/* Enlarged header artwork; compensate PNG insets to preserve the approved visible top/left position. */
+header .brand{width:min(328.509px,calc(87.285vw - 27.9312px));max-width:none}
+.brand-logo{transform:translate(-15.0917875%, -5.4182704%)}
+.day-tabs button{font-size:1.4375rem;padding:10px 2px;white-space:nowrap;min-width:0}
+@media(max-width:600px){header{padding:20px}}
+#portrait-message{position:fixed;inset:0;z-index:1000;background:white;color:var(--brand-green);padding:24px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center}
+#portrait-message[hidden]{display:none}
+.portrait-required{overflow:hidden}
+.portrait-required body>header,.portrait-required body>nav,.portrait-required body>main,.portrait-required #timer,.portrait-required #confirm{visibility:hidden}
+
+/* Equal visible whitespace above the wordmark and below it to navigation ink. */
+header{--header-top:28px;--header-wordmark-width:min(328.509px,calc(87.285vw - 27.9312px));height:calc(2 * var(--header-top) + 0.2406636947 * var(--header-wordmark-width) - 12px);padding-bottom:0;align-items:flex-start}
+header .brand{width:var(--header-wordmark-width)}
+nav button{display:flex;align-items:flex-start;justify-content:center;padding-top:12px}
+nav .nav-label{display:block;text-box-trim:trim-both;text-box-edge:cap alphabetic}
+@media(max-width:600px){header{--header-top:20px}}
+
+/* Three-day programme and seconds-only plank rows. */
+.day-tabs{grid-template-columns:repeat(3,minmax(0,1fr))}
+.exercise .set-grid.time-grid{grid-template-columns:34px minmax(0,1fr) 48px}
+.time-grid>input[data-field=seconds]{grid-column:2;grid-row:1}
+.time-grid>.set-check{grid-column:3;grid-row:1}
